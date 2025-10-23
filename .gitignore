@@ -1,0 +1,53 @@
+# Build outputs
+*.exe
+*.out
+*.o
+*.obj
+*.dll
+*.so
+*.dylib
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+
+# Compiled C++ files
+compiler.cpp
+*.pdb
+*.ilk
+
+# IDE files
+.vs/
+.vscode/.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.idea/
+
+# VS Code extension
+vscode-extension/node_modules/
+vscode-extension/out/
+vscode-extension/*.vsix
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Test outputs
+test_output/
+examples/*.cpp
+examples/*.exe
+
+# Package manager
+packages/
+*.nupkg
