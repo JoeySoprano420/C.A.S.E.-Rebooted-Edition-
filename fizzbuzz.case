@@ -1,0 +1,23 @@
+# FizzBuzz - C.A.S.E. Programming Language
+
+Print "FizzBuzz (1-30)" [end]
+Print "===============" [end]
+
+let n = 1
+
+while n <= 30 {
+    if n % 15 == 0 {
+        Print "FizzBuzz" [end]
+    } else {
+    if n % 3 == 0 {
+      Print "Fizz" [end]
+  } else {
+if n % 5 == 0 {
+    Print "Buzz" [end]
+         } else {
+         Print n [end]
+ }
+        }
+    }
+    mutate n n + 1 [end]
+}
