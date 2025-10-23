@@ -1,0 +1,45 @@
+# Calculator - C.A.S.E. Programming Language
+
+Fn add "a, b" (
+    ret a + b
+) [end]
+
+Fn subtract "a, b" (
+    ret a - b
+) [end]
+
+Fn multiply "a, b" (
+    ret a * b
+) [end]
+
+Fn divide "a, b" (
+    if b == 0 {
+      Print "Error: Division by zero!" [end]
+        ret 0
+    }
+    ret a / b
+) [end]
+
+Print "Calculator Demo" [end]
+Print "===============" [end]
+
+let x = 10
+let y = 5
+
+Print "Numbers: 10 and 5" [end]
+
+let sum = call add x y [end]
+Print "Addition: " [end]
+Print sum [end]
+
+let diff = call subtract x y [end]
+Print "Subtraction: " [end]
+Print diff [end]
+
+let prod = call multiply x y [end]
+Print "Multiplication: " [end]
+Print prod [end]
+
+let quot = call divide x y [end]
+Print "Division: " [end]
+Print quot [end]
