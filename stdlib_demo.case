@@ -1,0 +1,51 @@
+# C.A.S.E. Standard Library Demo
+
+Print "Standard Library Demo" [end]
+Print "=====================" [end]
+
+# Math Functions
+Print "" [end]
+Print "Math Functions:" [end]
+Print "--------------" [end]
+
+let num = 16
+let sqroot = sqrt num [end]
+Print "sqrt(16) = " [end]
+Print sqroot [end]
+
+let power = pow 2 10 [end]
+Print "pow(2, 10) = " [end]
+Print power [end]
+
+let absolute = abs -42 [end]
+Print "abs(-42) = " [end]
+Print absolute [end]
+
+let minimum = min 5 10 [end]
+Print "min(5, 10) = " [end]
+Print minimum [end]
+
+let maximum = max 5 10 [end]
+Print "max(5, 10) = " [end]
+Print maximum [end]
+
+# String Functions
+Print "" [end]
+Print "String Functions:" [end]
+Print "----------------" [end]
+
+let text = "Hello, World!"
+let len = length text [end]
+Print "length('Hello, World!') = " [end]
+Print len [end]
+
+let upper = upper "hello" [end]
+Print "upper('hello') = " [end]
+Print upper [end]
+
+let lower = lower "WORLD" [end]
+Print "lower('WORLD') = " [end]
+Print lower [end]
+
+Print "" [end]
+Print "Demo Complete!" [end]
