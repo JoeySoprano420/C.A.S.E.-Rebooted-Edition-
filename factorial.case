@@ -1,0 +1,21 @@
+# Factorial Calculator - C.A.S.E. Programming Language
+
+Fn factorial "n" (
+    if n <= 1 {
+ ret 1
+    } else {
+ let prev = call factorial (n - 1) [end]
+        ret n * prev
+    }
+) [end]
+
+Print "Factorial Calculator" [end]
+Print "===================" [end]
+
+let result = call factorial 5 [end]
+Print "5! = " [end]
+Print result [end]
+
+let result2 = call factorial 10 [end]
+Print "10! = " [end]
+Print result2 [end]
